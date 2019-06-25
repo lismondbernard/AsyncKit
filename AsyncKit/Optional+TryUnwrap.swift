@@ -35,7 +35,7 @@ extension Optional where Wrapped == String {
 	}
 }
 
-extension Optional where Wrapped == Collection {
+extension Optional where Wrapped:Collection {
 	public var isEmpty: Bool {
 		return self?.isEmpty ?? true
 	}
