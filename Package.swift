@@ -18,8 +18,5 @@ let package = Package(
         .target(
             name: "AsyncKit",
             dependencies: []),
-        .testTarget(
-            name: "AsyncKitTests",
-            dependencies: ["AsyncKit"]),
     ]
 )
