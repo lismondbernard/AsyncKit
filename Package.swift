@@ -9,6 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "AsyncKit",
+	    type: .dynamic,
             targets: ["AsyncKit"]),
     ],
     dependencies: [
